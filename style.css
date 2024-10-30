@@ -36,3 +36,59 @@ img {
     display: block;
     max-inline-size: 100%;
 }
+
+/* Normalize END */
+
+.container {
+    min-height: 100vh;
+    display: grid;
+    grid-template: auto 1fr / 1fr 5fr;
+}
+
+.sidebar,
+.header,
+.main {
+    padding: 20px;
+}
+
+.sidebar {
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;    
+    gap: 40px;
+}
+
+.header {
+    display: grid;
+    grid-template: auto auto / 1fr;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bottom-right ul {
+    display: flex;
+    gap: 30px;
+}
+
+.main {
+    display: grid;
+    grid-template: auto auto / 2fr 1fr;
+    gap: 20px;
+}
+
+.main .projects {
+    grid-row: span 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
