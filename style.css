@@ -53,11 +53,33 @@ img {
 
 .sidebar {
     grid-row: span 2;
+    background-color: rgb(25 146 212);
+    color: white;
 }
 
 .sidebar-container {
     display: grid;
     gap: 40px;
+}
+
+.sidebar-title {
+    display: flex;
+    justify-content: left;
+    max-height: 50px;
+    align-items: center;
+}
+
+.sidebar-title .icon-wrapper {
+    flex-basis: 25%;
+}
+
+.sidebar-title .title-icon {
+    fill: white;
+}
+
+.sidebar-title .title {
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .header {
