@@ -199,8 +199,11 @@ img {
     background-color: rgb(226 232 240);
 }
 
-.main .project-list {
+.main .projects {
     grid-row: span 2;
+}
+
+.main .project-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
