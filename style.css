@@ -199,7 +199,7 @@ img {
     background-color: rgb(226 232 240);
 }
 
-.main .projects {
+.main .project-list {
     grid-row: span 2;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
