@@ -68,13 +68,32 @@ img {
     grid-template-columns: min-content 1fr;
 }
 
-.sidebar-title .title-icon {
+.sidebar svg {
     fill: white;
+}
+
+.sidebar-title .title-icon {
     width: 50px;
 }
 
 .sidebar-title .title {
     font-size: clamp(1rem, 1rem + 1vw, 2rem);
+    font-weight: bold;
+}
+
+.sidebar .main-menu svg,
+.sidebar .secondary-menu svg {
+    width: 30px;
+}
+
+.sidebar ul li + li {
+    margin-top: 20px;
+}
+
+.sidebar li {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    column-gap: 20px;
     font-weight: bold;
 }
 
