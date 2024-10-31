@@ -89,6 +89,10 @@ img {
     font-weight: bold;
 }
 
+.sidebar ul {
+    margin-left: 10%;
+}
+
 .sidebar .main-menu svg,
 .sidebar .secondary-menu svg {
     width: 30px;
@@ -103,6 +107,7 @@ img {
     grid-template-columns: min-content 1fr;
     column-gap: 20px;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .header {
