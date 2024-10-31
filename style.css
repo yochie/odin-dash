@@ -129,7 +129,7 @@ img {
     border-radius: 15px;
     outline: none;
     border: none;
-    background-color: rgb(228, 225, 225);
+    background-color: rgb(226 232 240);
     width: clamp(10rem, 50%, 60rem);
     padding: 5px 15px;
 }
@@ -189,6 +189,7 @@ img {
     display: grid;
     grid-template: auto auto / 2fr 1fr;
     gap: 20px;
+    background-color: rgb(226 232 240);
 }
 
 .main .projects {
