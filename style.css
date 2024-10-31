@@ -152,6 +152,22 @@ img {
     align-items: center;
 }
 
+.header-bottom-left {
+    display:grid;
+    grid-template: 1fr 2fr / auto auto;
+    align-items: center;
+    column-gap: 10px;
+    font-weight: bold;
+}
+
+.header-bottom-left .circle-bg {
+    grid-row: span 2;
+}
+
+.header-bottom-left .user-intro {
+    font-size: 0.7rem;
+}
+
 .header-bottom-right ul {
     display: flex;
     gap: 30px;
