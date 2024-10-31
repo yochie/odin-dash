@@ -109,6 +109,7 @@ img {
     grid-template: auto auto / 1fr;
     padding-left: 50px;
     padding-right: 50px;
+    row-gap: 30px;
 }
 
 .header-top {
