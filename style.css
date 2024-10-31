@@ -131,6 +131,18 @@ img {
     padding: 5px 15px;
 }
 
+.header-top .circle-bg {
+    background-color: rgb(218, 192, 40);
+}
+
+.user-icon-small {
+    height: 2rem;
+}
+
+.header-top .user-name-small {
+    font-weight: bold;
+}
+
 .header-bottom {
     display: flex;
     justify-content: space-between;
