@@ -105,17 +105,20 @@ img {
 .header {
     display: grid;
     grid-template: auto auto / 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 15px;
 }
 
-.header-top .search-icon {
+.header-top .search-icon,
+.header-top .notifications-icon {
     max-height: 1rem;
-    padding: 0px 20px;
 }
 
 .header-top input {
