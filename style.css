@@ -210,15 +210,17 @@ img {
     margin-bottom: 15px;
 }
 
-.main .projects {
-    grid-row: span 2;
+.main>* {
     display: flex;
     flex-direction: column;
 }
 
+.main .projects {
+    grid-row: span 2;
+}
+
 .main .project-list {
     display: grid;
-    align-content: start;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     flex: 1;
