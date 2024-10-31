@@ -199,6 +199,11 @@ img {
     background-color: rgb(226 232 240);
 }
 
+.main h2 {
+    font-size:  x-large;
+    font-weight: bold;
+}
+
 .main .projects {
     grid-row: span 2;
 }
