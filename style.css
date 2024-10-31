@@ -164,6 +164,10 @@ img {
     grid-row: span 2;
 }
 
+.header-bottom-left .user-icon-large {
+    height: 3rem;
+}
+
 .header-bottom-left .user-intro {
     font-size: 0.7rem;
 }
