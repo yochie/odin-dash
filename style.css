@@ -226,10 +226,13 @@ img {
     flex: 1;
 }
 
-.project-card {
+.card {
     background-color: white;
     border-radius: 10px;
     padding: 30px;
+}
+
+.project-card {
     border-left: 10px solid orange;
 }
 
@@ -238,6 +241,31 @@ img {
     font-weight: bold;
 }
 
-.project-card .card-content {
+.card p {
     color: rgb(97, 97, 97);
+}
+
+.announcements-card,
+.trending-card {
+    flex: 1;
+}
+
+.announcements ul,
+.trending ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.announcements-card li+li {
+    border-top: 1px solid rgba(165, 165, 165, 0.649);
+    padding-top: 20px;
+}
+
+.announcements li h3 {
+    font-weight: bold;
+}
+
+.card .trending-tag {
+    color: revert;
 }
