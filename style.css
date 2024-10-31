@@ -42,7 +42,7 @@ img {
 .container {
     min-height: 100vh;
     display: grid;
-    grid-template: 200px calc(100vh - 200px) / 1fr 4fr;
+    grid-template: min-content 1fr / 1fr 4fr;
 }
 
 .sidebar,
@@ -165,11 +165,10 @@ img {
 
 .header-bottom-left .circle-bg {
     grid-row: span 2;
+    height: 3rem;
+    width: 3rem;
 }
 
-.header-bottom-left .user-icon-large {
-    height: 3rem;
-}
 
 .header-bottom-left .user-intro {
     font-size: 0.7rem;
@@ -197,7 +196,6 @@ img {
     grid-template: auto 1fr / 2fr 1fr;
     gap: 20px;
     background-color: rgb(226 232 240);
-    overflow-y: auto;
 }
 
 .main h2 {
