@@ -173,6 +173,14 @@ img {
     gap: 30px;
 }
 
+.header-bottom-right li {
+    background-color: rgb(25 146 212);
+    border-radius: 30px;
+    padding: 8px 20px;
+    color: white;
+    font-weight: bold;
+}
+
 .main {
     display: grid;
     grid-template: auto auto / 2fr 1fr;
