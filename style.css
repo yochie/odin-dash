@@ -51,6 +51,11 @@ img {
     padding: 20px;
 }
 
+.circle-bg {
+    border-radius: 50%;
+    padding: 3px;
+}
+
 .sidebar {
     grid-row: span 2;
     background-color: rgb(25 146 212);
