@@ -63,22 +63,18 @@ img {
 }
 
 .sidebar-title {
-    display: flex;
-    justify-content: left;
-    max-height: 50px;
+    display: grid;
     align-items: center;
-}
-
-.sidebar-title .icon-wrapper {
-    flex-basis: 25%;
+    grid-template-columns: min-content 1fr;
 }
 
 .sidebar-title .title-icon {
     fill: white;
+    width: 50px;
 }
 
 .sidebar-title .title {
-    font-size: 30px;
+    font-size: clamp(1rem, 1rem + 1vw, 2rem);
     font-weight: bold;
 }
 
