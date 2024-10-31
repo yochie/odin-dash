@@ -42,7 +42,7 @@ img {
 .container {
     min-height: 100vh;
     display: grid;
-    grid-template: auto 1fr / 1fr 4fr;
+    grid-template: 200px calc(100vh - 200px) / 1fr 4fr;
 }
 
 .sidebar,
@@ -94,7 +94,7 @@ img {
     width: 30px;
 }
 
-.sidebar ul li + li {
+.sidebar ul li+li {
     margin-top: 20px;
 }
 
@@ -156,7 +156,7 @@ img {
 }
 
 .header-bottom-left {
-    display:grid;
+    display: grid;
     grid-template: 1fr 2fr / auto auto;
     align-items: center;
     column-gap: 10px;
@@ -194,22 +194,42 @@ img {
 
 .main {
     display: grid;
-    grid-template: auto auto / 2fr 1fr;
+    grid-template: auto 1fr / 2fr 1fr;
     gap: 20px;
     background-color: rgb(226 232 240);
+    overflow-y: auto;
 }
 
 .main h2 {
-    font-size:  x-large;
+    font-size: x-large;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .main .projects {
     grid-row: span 2;
+    display: flex;
+    flex-direction: column;
 }
 
 .main .project-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
+    flex: 1;
+}
+
+.project-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+.project-card .card-title {
+    font-weight: bold;
+}
+
+.project-card .card-content {
+    color: rgb(97, 97, 97);
 }
