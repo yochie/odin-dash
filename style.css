@@ -105,6 +105,22 @@ img {
 .header-top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.header-top .search-icon {
+    max-height: 1rem;
+    padding: 0px 20px;
+}
+
+.header-top input {
+    margin-right: auto;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgb(228, 225, 225);
+    width: clamp(10rem, 30%, 40rem);
+    padding: 5px 15px;
 }
 
 .header-bottom {
