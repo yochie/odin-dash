@@ -234,6 +234,8 @@ img {
 
 .project-card {
     border-left: 10px solid orange;
+    display: grid;
+    grid-template: auto auto 1fr / 1fr;
 }
 
 
@@ -243,6 +245,15 @@ img {
 
 .card p {
     color: rgb(97, 97, 97);
+}
+
+.project-card .card-footer {
+    align-self: end;
+    justify-self: bottom;
+    display: flex;
+    height: 2rem;
+    justify-content: right;
+    gap: 20px;
 }
 
 .announcements-card,
