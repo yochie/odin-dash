@@ -269,3 +269,35 @@ img {
 .card .trending-tag {
     color: revert;
 }
+
+.trending-card li+li {
+    margin-top: 15px;
+}
+
+.trending-card li {
+    display: grid;
+    grid-template: 1fr 1fr / auto 1fr;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.trending-card li .circle-bg {
+    grid-row: span 2;
+}
+
+.trending-card li img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.circle-bg.tegan {
+    background-color: rgb(224 242 254);
+}
+
+.circle-bg.kendall {
+    background-color: rgb(163 163 163);
+}
+
+.circle-bg.alex {
+    background-color: rgb(253 164 175);
+}
